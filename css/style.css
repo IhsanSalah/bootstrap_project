@@ -158,6 +158,8 @@
     color: white !important;
 }
 .clip-custom {
+    max-width: 100%;
+    height: auto;
     clip-path: circle(50%)    !important;
     object-fit: cover!important;
   }
