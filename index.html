@@ -123,74 +123,42 @@
           </div>
           
             <!-- /////////// floating icons -->
-          <div id="carouselExampleLight" class="carousel carousel-light slide mb-2" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <div id="carouselExampleLight" class="carousel carousel-light slide mb-2" data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/cairo.jpg" class="d-block w-100 img-fluid" alt="Cairo">
+                        <div class="carousel-caption d-sm-block d-md-block">
+                            <h2 class="text-white fw-bold">CAIRO</h2>
+                            <p class="text-white">We love this city!</p>
+                            <button class="btn btn-info text-white">Search</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/alex.jpg" class="d-block w-100 img-fluid" alt="Alexandria">
+                        <div class="carousel-caption d-sm-block d-md-block">
+                            <h2 class="text-light fw-bold">ALEXANDRIA</h2>
+                            <p class="text-light">We love this city!</p>
+                            <button class="btn btn-info text-white">Search</button>
+                        </div>
+                    </div>
+                    <!-- كرر نفس الهيكل لبقية الشرائح -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/cairo.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-white display-1 fw-bold">CAIRO</h2>
-                        <p class="text-white fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/alex.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-light display-1 fw-bold">ALEXANDRIA</h2>
-                        <p class="text-light fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/luxorjpg.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-light display-1 fw-bold">LUXOR</h2>
-                        <p class="text-light fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/aswan.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-light display-1 fw-bold">ASWAN</h2>
-                        <p class="text-light fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/sharm.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-light display-1 fw-bold">SHARM EL SHIKH</h2>
-                        <p class="text-light fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/galala.jpg" class="d-block" alt="..." height="500" width="1300">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2 class="text-light display-1 fw-bold">AL GALALA</h2>
-                        <p class="text-light fs-3">We love this city!</p>
-                        <button class="btn btn-info text-white mx-3" type="button">Search</button>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev btn-white" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleLight" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+            
         <!--                 /caresoul sec                                     -->
 
         <div class="py-4 mb-4 p-4 rounded-3 mx-1" style="background-color: rgb(168, 211, 218);">
